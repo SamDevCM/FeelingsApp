@@ -43,7 +43,7 @@ const frases = {
         "Te amo, y juntos superaremos esta tristeza.",
         "Siempre encontrarás consuelo en mis brazos."
     ],
-    enojado: [
+    enojada: [
         "Sé que estás molesta, pero estoy aquí para escucharte.",
         "Respira, amor, vamos a resolverlo juntos.",
         "Tu enojo no cambia lo mucho que te amo.",
@@ -66,7 +66,7 @@ const frases = {
         "Hablemos y encontremos una solución juntos.",
         "Hasta Enojada te vez preciosa."
     ],
-    preocupado: [
+    preocupada: [
         "Estoy aquí para aliviar tus preocupaciones.",
         "Todo estará bien, te lo prometo.",
         "Tienes mi apoyo incondicional, siempre.",
@@ -88,7 +88,7 @@ const frases = {
         "Estoy contigo, en cada paso del camino.",
         "Vamos a resolver esto juntos, confía en mí."
     ],
-    desmotivado: [
+    desmotivada: [
         "Eres increíble, y estoy aquí para recordártelo.",
         "No pierdas la fe en ti misma, amor.",
         "Juntos encontraremos la motivación que necesitas.",
