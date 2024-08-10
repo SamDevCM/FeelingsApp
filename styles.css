@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     color: #333;
 }
 
@@ -30,23 +30,25 @@ h1 {
     color: white;
     font-size: 2em;
     cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: transform 1s, box-shadow 1s;
+    width: 300px;  /* Ajusta el valor según lo necesario */
+    height: 75px;  /* Ajusta el valor según lo necesario */
 }
 
 .feliz {
-    background-color: #ed4c87;
+    background-color: #58ba28;
 }
 
 .triste {
-    background-color: #fcda1be7;
+    background-color: #1b39fce7;
 }
 
 .enojado {
-    background-color: #001f54;
+    background-color: #df0101;
 }
 
 .preocupado {
-    background-color: #2f935c;
+    background-color: #8e17d3;
 }
 
 .desmotivado {
@@ -66,13 +68,13 @@ h1 {
 
 #frase {
     font-size: 1.5em;
-    color: #333;
+    color: #292929;
 }
 
 .volver-btn {
     margin-top: 20px;
     padding: 10px 20px;
-    font-size: 1em;
+    font-size: 2em;
     color: white;
     background-color: #434343;
     border: none;

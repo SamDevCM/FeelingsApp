@@ -64,7 +64,7 @@ const frases = {
         "Quiero que estés bien, amor.",
         "Te amo más de lo que las palabras pueden expresar.",
         "Hablemos y encontremos una solución juntos.",
-        "Hasta Enojada te vez precionsa."
+        "Hasta Enojada te vez preciosa."
     ],
     preocupado: [
         "Estoy aquí para aliviar tus preocupaciones.",
