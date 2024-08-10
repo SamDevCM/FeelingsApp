@@ -1,5 +1,5 @@
-const frases = {
-    feliz: [
+{
+    "feliz": [
         "Eres mi alegría en cada día.",
         "Contigo, cada momento es mágico.",
         "Tu felicidad es mi mayor tesoro.",
@@ -21,7 +21,7 @@ const frases = {
         "No hay nada más bonito que verte feliz.",
         "Tu felicidad me hace sentir completo."
     ],
-    triste: [
+    "triste": [
         "Estoy aquí para abrazarte en los días grises.",
         "No estás sola, amor, siempre estaré a tu lado.",
         "Es normal sentirse triste a veces, y aquí estoy para ti.",
@@ -42,9 +42,9 @@ const frases = {
         "Mi amor por ti es más grande que cualquier tristeza.",
         "Te amo, y juntos superaremos esta tristeza.",
         "Siempre encontrarás consuelo en mis brazos.",
-        "Si te hago el amor se te quita"
+        "Si te hago el amor se te quita."
     ],
-    enojada: [
+    "enojada": [
         "Sé que estás molesta, pero estoy aquí para escucharte.",
         "Respira, amor, vamos a resolverlo juntos.",
         "Tu enojo no cambia lo mucho que te amo.",
@@ -67,7 +67,7 @@ const frases = {
         "Hablemos y encontremos una solución juntos.",
         "Hasta Enojada te vez preciosa."
     ],
-    preocupada: [
+    "preocupada": [
         "Estoy aquí para aliviar tus preocupaciones.",
         "Todo estará bien, te lo prometo.",
         "Tienes mi apoyo incondicional, siempre.",
@@ -89,7 +89,7 @@ const frases = {
         "Estoy contigo, en cada paso del camino.",
         "Vamos a resolver esto juntos, confía en mí."
     ],
-    desmotivada: [
+    "desmotivada": [
         "Eres increíble, y estoy aquí para recordártelo.",
         "No pierdas la fe en ti misma, amor.",
         "Juntos encontraremos la motivación que necesitas.",
@@ -111,20 +111,4 @@ const frases = {
         "Juntos podemos lograr todo lo que te propongas.",
         "Eres fuerte, y estoy aquí para recordártelo."
     ]
-};
-
-function mostrarFrase(emocion) {
-    const frasesEmocion = frases[emocion];
-    const fraseAleatoria = frasesEmocion[Math.floor(Math.random() * frasesEmocion.length)];
-    document.getElementById('frase').textContent = fraseAleatoria;
-    document.getElementById('emotion-header').textContent = emocion.charAt(0).toUpperCase() + emocion.slice(1);
-    document.getElementById('header-text').style.display = 'none';
-    document.getElementById('frase-container').style.display = 'block';
-    document.querySelector('.buttons').style.display = 'none';
-}
-
-function volver() {
-    document.getElementById('frase-container').style.display = 'none';
-    document.querySelector('.buttons').style.display = 'block';
-    document.getElementById('header-text').style.display = 'block';
 }
