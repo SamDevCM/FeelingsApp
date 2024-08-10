@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feelings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hola Mi Amor! Presióna cuando te sientas:</h1>
+        <div class="buttons">
+            <button class="btn feliz" onclick="mostrarFrase('feliz')">Feliz</button>
+            <button class="btn triste" onclick="mostrarFrase('triste')">Triste</button>
+            <button class="btn enojado" onclick="mostrarFrase('enojado')">Enojada</button>
+            <button class="btn preocupado" onclick="mostrarFrase('preocupado')">Preocupada</button>
+            <button class="btn desmotivado" onclick="mostrarFrase('desmotivado')">Desmotivada</button>
+        </div>
+        <div id="frase-container" class="frase-container">
+            <p id="frase"></p>
+            <button id="volver-btn" class="volver-btn" onclick="volver()">Volver</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
