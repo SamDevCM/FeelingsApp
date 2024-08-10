@@ -41,7 +41,8 @@ const frases = {
         "Cuando estés lista, hablemos, amor.",
         "Mi amor por ti es más grande que cualquier tristeza.",
         "Te amo, y juntos superaremos esta tristeza.",
-        "Siempre encontrarás consuelo en mis brazos."
+        "Siempre encontrarás consuelo en mis brazos.",
+        "Si te hago el amor se te quita"
     ],
     enojada: [
         "Sé que estás molesta, pero estoy aquí para escucharte.",
