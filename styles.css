@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #ebbbf1;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@ body {
     padding: 40px;
 }
 
-h1 {
+h1, h2 {
     font-size: 2.5em;
     color: #333;
 }
@@ -31,8 +31,8 @@ h1 {
     font-size: 2em;
     cursor: pointer;
     transition: transform 1s, box-shadow 1s;
-    width: 300px;  /* Ajusta el valor según lo necesario */
-    height: 75px;  /* Ajusta el valor según lo necesario */
+    width: 300px;  
+    height: 75px;  
 }
 
 .feliz {
@@ -40,7 +40,7 @@ h1 {
 }
 
 .triste {
-    background-color: #1b39fce7;
+    background-color: #2844fce7;
 }
 
 .enojado {
@@ -57,7 +57,7 @@ h1 {
 
 .btn:hover {
     transform: scale(1.1);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 1 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .frase-container {
@@ -67,7 +67,7 @@ h1 {
 }
 
 #frase {
-    font-size: 1.5em;
+    font-size: 2em;
     color: #292929;
 }
 
@@ -80,7 +80,9 @@ h1 {
     border: none;
     border-radius: 25px;
     cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: transform 1s, box-shadow 1s;
+    width: 300px;  
+    height: 75px;
 }
 
 .volver-btn:hover {

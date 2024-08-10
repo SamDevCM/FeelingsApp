@@ -116,6 +116,8 @@ function mostrarFrase(emocion) {
     const frasesEmocion = frases[emocion];
     const fraseAleatoria = frasesEmocion[Math.floor(Math.random() * frasesEmocion.length)];
     document.getElementById('frase').textContent = fraseAleatoria;
+    document.getElementById('emotion-header').textContent = emocion.charAt(0).toUpperCase() + emocion.slice(1);
+    document.getElementById('header-text').style.display = 'none';
     document.getElementById('frase-container').style.display = 'block';
     document.querySelector('.buttons').style.display = 'none';
 }
@@ -123,4 +125,5 @@ function mostrarFrase(emocion) {
 function volver() {
     document.getElementById('frase-container').style.display = 'none';
     document.querySelector('.buttons').style.display = 'block';
+    document.getElementById('header-text').style.display = 'block';
 }

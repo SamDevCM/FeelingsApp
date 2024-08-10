@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Hola Mi Amor! Presióna cuando te sientas:</h1>
+        <h1 id="header-text">Hola Mi Amor! Presiona cuando te sientas:</h1>
         <div class="buttons">
             <button class="btn feliz" onclick="mostrarFrase('feliz')">Feliz</button>
             <br>
@@ -21,6 +21,7 @@
             <button class="btn desmotivado" onclick="mostrarFrase('desmotivado')">Desmotivada</button>
         </div>
         <div id="frase-container" class="frase-container">
+            <h2 id="emotion-header"></h2>
             <p id="frase"></p>
             <button id="volver-btn" class="volver-btn" onclick="volver()">Volver</button>
         </div>
