@@ -35,10 +35,6 @@ h1, h2 {
     height: 75px;  
 }
 
-.feliz {
-    background-color: #58ba28;
-}
-
 .triste {
     background-color: #2844fce7;
 }
@@ -53,6 +49,38 @@ h1, h2 {
 
 .desmotivada {
     background-color: #eb693a;
+}
+
+.aburrida {
+    background-color: #1692e4;
+}
+
+.estresada {
+    background-color: #ff9b05;
+}
+
+.ansiosa {
+    background-color: #0da57f;
+}
+
+.feliz {
+    background-color: #58ba28;
+}
+
+.emocionada {
+    background-color: #eb1757;
+}
+
+.tranquila {
+    background-color: #b869f8;
+}
+
+.hot {
+    background-color: #df0195;
+}
+
+.drunkanddrug {
+    background-color: #0b16a5;
 }
 
 .btn:hover {
