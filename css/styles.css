@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -9,12 +10,18 @@ body {
     overflow: hidden;
 }
 
-.container {
-    text-align: center;
-    padding: 20px;
+.scroll-container {
     width: 100%;
     max-width: 600px; /* Limita el ancho máximo */
+    height: 100%;
+    overflow: auto; /* Permite el desplazamiento */
+    padding: 20px;
     box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
 }
 
 h1, h2 {
