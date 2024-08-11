@@ -4,52 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feelings</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css\styles.css">
 </head>
 <body>
-    <div class="scroll-container">
-        <div class="container">
-            <h1 id="header-text">¡Hola Mi Amor!, ¿Cómo te sientes hoy? 🫂</h1>
-            <div class="buttons">
-                <h1 id="header-text">Presiona cuando te sientas:</h1>
-                <br>
-                <button class="btn triste" onclick="mostrarFrase('triste')">Triste ☹️</button>
-                <br>
-                <button class="btn enojada" onclick="mostrarFrase('enojada')">Enojada 😠</button>
-                <br>
-                <button class="btn preocupada" onclick="mostrarFrase('preocupada')">Preocupada 😵‍💫</button>
-                <br>
-                <button class="btn desmotivada" onclick="mostrarFrase('desmotivada')">Desmotivada 😤</button>
-                <br>
-                <button class="btn aburrida" onclick="mostrarFrase('aburrida')">Aburrida 🥱</button>
-                <br>
-                <button class="btn estresada" onclick="mostrarFrase('estresada')">Estresada 😣</button>
-                <br>
-                <button class="btn ansiosa" onclick="mostrarFrase('ansiosa')">Ansiosa 😰</button>
-                <br>
-                <hr>
-                <h1 id="header-text">O Presiona cuando te sientas:</h1>
-                <br>
-                <button class="btn feliz" onclick="mostrarFrase('feliz')">Feliz 😁</button>
-                <br>
-                <button class="btn emocionada" onclick="mostrarFrase('emocionada')">Emocionada 😜</button>
-                <br>
-                <button class="btn tranquila" onclick="mostrarFrase('tranquila')">Tranquila 😊</button>
-                <br>
-                <button class="btn hot" onclick="mostrarFrase('hot')">Hot ❤️‍🔥</button>
-                <br>
-                <hr>
-                <h1 id="header-text">Otros Estados Emocionales:</h1>
-                <br>
-                <button class="btn drunkanddrug" onclick="mostrarFrase('drunkanddrug')">Drogada/Borracha 🥴</button>
-            </div>
-            <div id="frase-container" class="frase-container">
-                <h2 id="emotion-header"></h2>
-                <p id="frase"></p>
-                <button id="volver-btn" class="volver-btn" onclick="volver()">Volver</button>
-            </div>
+    <div class="container">
+        <h1 id="header-text">¡Hola Mi Amor!, ¿Como te sientes hoy? 🫂</h1>
+        <div class="buttons">
+            <h1 id="header-text">Presiona cuando te sientas:</h1>
+            <br>
+            <button class="btn triste" onclick="mostrarFrase('triste')">Triste ☹️</button>
+            <button class="btn enojada" onclick="mostrarFrase('enojada')">Enojada 😠</button>
+            <button class="btn preocupada" onclick="mostrarFrase('preocupada')">Preocupada 😵‍💫</button>
+            <br>
+            <button class="btn desmotivada" onclick="mostrarFrase('desmotivada')">Desmotivada 😤</button>
+            <button class="btn aburrida" onclick="mostrarFrase('aburrida')">Aburrida 🥱</button>
+            <button class="btn estresada" onclick="mostrarFrase('estresada')">Estresada 😣</button>
+            <br>
+            <button class="btn ansiosa" onclick="mostrarFrase('ansiosa')">Ansiosa 😰</button>
+            <br>
+            <hr>
+            <h1 id="header-text">O Presiona cuando te sientas:</h1>
+            <br>
+            <button class="btn feliz" onclick="mostrarFrase('feliz')">Feliz 😁</button>
+            <button class="btn emocionada" onclick="mostrarFrase('emocionada')">Emocionada 😜</button>
+            <button class="btn tranquila" onclick="mostrarFrase('tranquila')">Tranquila 😊</button>
+            <br>
+            <button class="btn hot" onclick="mostrarFrase('hot')">Hot ❤️‍🔥</button>
+            <br>
+            <hr>
+            <h1 id="header-text">Otros Estados Emocionales:</h1>
+            <br>
+            <button class="btn drunkanddrug" onclick="mostrarFrase('drunkanddrug')">Drogada/Borracha 🥴</button>
+        </div>
+        <div id="frase-container" class="frase-container">
+            <h2 id="emotion-header"></h2>
+            <p id="frase"></p>
+            <button id="volver-btn" class="volver-btn" onclick="volver()">Volver</button>
         </div>
     </div>
-    <script src="js/script.js"></script>
+    <script src="js\script.js"></script>
 </body>
 </html>
