@@ -1,92 +1,68 @@
+/* CSS General */
 body {
-    margin: 80px;
+    margin: 0;
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow: hidden;
+}
+
+.scroll-container {
+    width: 100%;
+    max-width: 600px; 
+    height: 100%;
+    overflow: auto; 
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .container {
     text-align: center;
-    padding: 80px;
-    margin: 20px;
+    width: 100%;
 }
 
 h1, h2 {
-    font-size: 2.5em;
+    font-size: 1.6em; /* Ajustado para pantallas más pequeñas */
     color: #333;
 }
 
 .buttons {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .btn {
-    padding: 15px 25px;
-    margin: 10px;
+    padding: 10px 20px;
+    margin: 5px;
     border: none;
     border-radius: 25px;
     color: white;
-    font-size: 2em;
+    font-size: 1em; /* Ajustado para pantallas más pequeñas */
     cursor: pointer;
-    transition: transform 1s, box-shadow 1s;
-    width: 300px;  
-    height: 75px;  
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%; 
+    max-width: 250px; 
+    height: 60px; 
 }
 
-.triste {
-    background-color: #2844fce7;
-}
-
-.enojada {
-    background-color: #df0101;
-}
-
-.preocupada {
-    background-color: #8e17d3;
-}
-
-.desmotivada {
-    background-color: #eb693a;
-}
-
-.aburrida {
-    background-color: #1692e4;
-}
-
-.estresada {
-    background-color: #ff9b05;
-}
-
-.ansiosa {
-    background-color: #0da57f;
-}
-
-.feliz {
-    background-color: #58ba28;
-}
-
-.emocionada {
-    background-color: #eb1757;
-}
-
-.tranquila {
-    background-color: #b869f8;
-}
-
-.hot {
-    background-color: #df0195;
-}
-
-.drunkanddrug {
-    background-color: #0b16a5;
-}
+.triste { background-color: #2844fce7; }
+.enojada { background-color: #df0101; }
+.preocupada { background-color: #8e17d3; }
+.desmotivada { background-color: #eb693a; }
+.aburrida { background-color: #1692e4; }
+.estresada { background-color: #ff9b05; }
+.ansiosa { background-color: #0da57f; }
+.feliz { background-color: #58ba28; }
+.emocionada { background-color: #eb1757; }
+.tranquila { background-color: #b869f8; }
+.hot { background-color: #df0195; }
+.drunkanddrug { background-color: #0b16a5; }
 
 .btn:hover {
-    transform: scale(1.1);
-    box-shadow: 1 5px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .frase-container {
@@ -96,30 +72,52 @@ h1, h2 {
 }
 
 #frase {
-    font-size: 2em;
+    font-size: 1.2em; /* Ajustado para pantallas más pequeñas */
     color: #292929;
 }
 
 .volver-btn {
     margin-top: 20px;
     padding: 10px 20px;
-    font-size: 2em;
+    font-size: 1em; /* Ajustado para pantallas más pequeñas */
     color: white;
     background-color: #434343;
     border: none;
     border-radius: 25px;
     cursor: pointer;
-    transition: transform 1s, box-shadow 1s;
-    width: 300px;  
-    height: 75px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%; 
+    max-width: 250px; 
+    height: 60px; 
 }
 
 .volver-btn:hover {
-    transform: scale(1.1);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
+}
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 600px) {
+    h1, h2 {
+        font-size: 1.4em;
+    }
+
+    .btn {
+        font-size: 0.9em;
+        height: 50px;
+    }
+
+    #frase {
+        font-size: 1.1em;
+    }
+
+    .volver-btn {
+        font-size: 0.9em;
+        height: 50px;
+    }
 }
