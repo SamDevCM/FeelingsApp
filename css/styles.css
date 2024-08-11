@@ -1,38 +1,43 @@
 body {
-    margin: 50px;
+    margin: 0;
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow: hidden;
 }
 
 .container {
     text-align: center;
-    padding: 40px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px; /* Limita el ancho máximo */
+    box-sizing: border-box;
 }
 
 h1, h2 {
-    font-size: 2.5em;
+    font-size: 1.8em; /* Ajustado para pantallas pequeñas */
     color: #333;
 }
 
 .buttons {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .btn {
-    padding: 15px 25px;
-    margin: 10px;
+    padding: 10px 20px;
+    margin: 5px;
     border: none;
     border-radius: 25px;
     color: white;
-    font-size: 2em;
+    font-size: 1.2em; /* Ajustado para pantallas pequeñas */
     cursor: pointer;
-    transition: transform 1s, box-shadow 1s;
-    width: 300px;  
-    height: 75px;  
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 250px; /* Ancho máximo de cada botón */
+    height: 60px; /* Ajustado para pantallas pequeñas */
 }
 
 .triste {
@@ -84,8 +89,8 @@ h1, h2 {
 }
 
 .btn:hover {
-    transform: scale(1.1);
-    box-shadow: 1 5px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .frase-container {
@@ -95,27 +100,28 @@ h1, h2 {
 }
 
 #frase {
-    font-size: 2em;
+    font-size: 1.5em; /* Ajustado para pantallas pequeñas */
     color: #292929;
 }
 
 .volver-btn {
     margin-top: 20px;
     padding: 10px 20px;
-    font-size: 2em;
+    font-size: 1.2em; /* Ajustado para pantallas pequeñas */
     color: white;
     background-color: #434343;
     border: none;
     border-radius: 25px;
     cursor: pointer;
-    transition: transform 1s, box-shadow 1s;
-    width: 300px;  
-    height: 75px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 250px; /* Ancho máximo del botón de volver */
+    height: 60px; /* Ajustado para pantallas pequeñas */
 }
 
 .volver-btn:hover {
-    transform: scale(1.1);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 @keyframes fadeIn {
