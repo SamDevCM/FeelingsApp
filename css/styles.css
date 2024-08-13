@@ -25,7 +25,7 @@ body {
 }
 
 h1, h2 {
-    font-size: 1.6em; /* Ajustado para pantallas más pequeñas */
+    font-size: 1.6em; 
     color: #333;
 }
 
@@ -39,7 +39,7 @@ h1, h2 {
     border: none;
     border-radius: 25px;
     color: white;
-    font-size: 1em; /* Ajustado para pantallas más pequeñas */
+    font-size: 1em; 
     cursor: pointer;
     transition: transform 0.3s, box-shadow 0.3s;
     width: 100%; 
@@ -58,7 +58,7 @@ h1, h2 {
 .emocionada { background-color: #eb1757; }
 .tranquila { background-color: #b869f8; }
 .hot { background-color: #df0195; }
-.drunkanddrug { background-color: #0b16a5; }
+.drogada_Borracha { background-color: #0b16a5; }
 
 .btn:hover {
     transform: scale(1.05);
@@ -72,14 +72,14 @@ h1, h2 {
 }
 
 #frase {
-    font-size: 1.2em; /* Ajustado para pantallas más pequeñas */
+    font-size: 1.2em; 
     color: #292929;
 }
 
 .volver-btn {
     margin-top: 20px;
     padding: 10px 20px;
-    font-size: 1em; /* Ajustado para pantallas más pequeñas */
+    font-size: 1em;
     color: white;
     background-color: #434343;
     border: none;
@@ -101,7 +101,6 @@ h1, h2 {
     to { opacity: 1; }
 }
 
-/* Media Queries para pantallas pequeñas */
 @media (max-width: 600px) {
     h1, h2 {
         font-size: 1.4em;

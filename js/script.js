@@ -398,7 +398,7 @@ const frases = {
     hot: [
         "Mandame mensaje YA😉🤭 Estas aun estan en proceso... 🙈❤️‍🔥 "
     ],
-    drunkanddrug: [
+    drogada_Borracha: [
         "Voy a cuidar de ti hasta que te sientas mejor. Tu bienestar es lo que más me importa.",
         "Parece que tu bebida decidió hacer una fiesta en tu sistema.",
         "Hoy has alcanzado el nivel experto en ser adorablemente borrachita.!",
